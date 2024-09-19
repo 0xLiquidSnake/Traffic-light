@@ -1,0 +1,68 @@
+body {
+    background-color: grey;
+}
+
+.white {
+    background-color: white;
+    width: 300px ;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 0.5%;
+    box-sizing: border-box;
+}
+
+.red, .green, .yellow {
+    border: 10px solid black;
+    width: 190px;
+    margin: 5px auto;
+    height: 180px;
+    box-sizing: border-box;
+    
+    
+}
+
+.red {
+    margin-top: 10px 5px;
+    background-color: red;
+    border-color: rgb(102, 20, 20);
+}
+
+.redChild {
+        box-sizing: border-box;
+        background-color: rgb(230, 107, 107);
+        height: 50%;
+        margin-top: 47%;
+    }
+    
+
+.yellow {
+    background-color: yellow;
+    border-color: darkgoldenrod;
+}
+
+.yellowChild {
+
+    box-sizing: border-box;
+    background-color: rgb(230, 224, 107);
+    height: 50%;
+    margin-top: 47%;
+    margin-left: 50%;
+    width: 50%;
+
+}
+
+
+
+.green {
+    background-color: green;
+    border-color: darkgreen;
+}
+
+.greenChild {
+    background-color: rgb(31, 139, 7);
+    height: 50%;
+    width: 50%;
+    margin-top: 47%;
+
+}
